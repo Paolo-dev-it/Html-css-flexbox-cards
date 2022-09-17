@@ -10,7 +10,7 @@
 
 body {
     background-color: beige;
-    font-family: font-family: 'Kanit', sans-serif; font-family: 'Roboto', sans-serif; font-family: 'Roboto Mono', monospace; 
+    font-family: 'Kanit', sans-serif; font-family: 'Roboto', sans-serif; font-family: 'Roboto Mono', monospace; 
 }
 /* stile titolo e descrizione */
 header {
@@ -27,7 +27,31 @@ header {
     margin-top: 30px;
 }
 /* stile sezione principale */
-main {
+.container {
     width: 80%;
     margin: auto;
+}
+
+.cards-place {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card  {
+    width: calc(100% / 3);
+    height: 100px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    
 }
